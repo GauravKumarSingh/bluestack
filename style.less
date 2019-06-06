@@ -1,0 +1,133 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+#main-container {
+  .header{
+    width:100%;
+    height:40px;
+        color: #fff;
+    background-color:#3d7fab;
+    line-height:40px;
+    .logo{
+      display:inline-block;
+      width:40px;
+    }
+    .company-name{
+      width:100px;
+      display:inline-block;
+    }
+    .version{
+      text-align: right;
+      float:right;
+      width:90px;
+      padding-right: 10px;
+    }
+    .option{
+      float:right;
+      width:40px;
+      border-left: 1px solid gray;
+      height:40px;
+      i {
+        color: #fff;
+        font-size: 16px;
+        padding: 12px;
+      }
+    }
+  }
+  .container{
+    .compaign-title {
+      height: 100px;
+      line-height: 100px;
+      font-size: 25px;
+      width: 100%;
+      text-align: center;
+    }
+    .table-wrapper{
+        width: 100%;
+        table {
+          border-collapse: collapse;
+          border: 1px solid lightgray;
+          width: 80%;
+          margin: 0 auto;
+          thead {
+            text-align: left;
+            height: 40px;
+            background: lightgray;
+            tr {
+              line-height: 30px;
+              height: 30px;
+              text-indent: 5px;
+              th {
+                border: 1px solid gray;
+                text-align: center;
+              }
+            }
+          }
+          tbody{
+            tr{
+               text-indent: 5px;
+               font-size: 13px;
+              .campaign{
+                text-align: center;
+
+
+
+
+                .campaign-icon {
+                  display: inline-block;
+                  box-sizing: border-box;
+                  padding: 10px;
+                  width: 20%;
+                  img {
+                    width: 30px;
+                    height: 30px;
+                  }
+
+                }
+                .campaign-text {
+                  width: 70%;
+                  text-align: left;
+                  display: inline-block;
+                }
+
+              }
+              .view{
+                text-align: center;
+                .view-logo img{
+                  width: 16px;
+                  height: 16px;
+                }
+                .view-text{
+                  font-size:8px;
+                }
+              }
+              .actions {
+                  .csv, .reports, .calendar {
+                    width: 30%;
+                    display: inline-block;
+                    text-align: center;
+                    .action-text {
+                      font-size: 8px;
+                    }
+                  }
+
+
+                }
+              td{
+                height: 35px;
+                border:1px solid lightgray;
+              }
+            }
+
+          }
+        }
+    }
+
+    .calendar-wrapper{
+      display:none;
+      position:absolute;
+    }
+  }
+}
